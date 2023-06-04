@@ -1,0 +1,5 @@
+name: "web-tpl"
+http:
+  listen: ":8080"
+log:
+  level: "debug"
