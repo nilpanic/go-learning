@@ -6,8 +6,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"web-tpl/app"
 	"web-tpl/app/http"
+
+	"web-tpl/app"
 )
 
 func main() {
@@ -23,7 +24,6 @@ func main() {
 
 		*homePath = filepath.Dir(f)
 	}
-
 
 	err := app.Init(*homePath)
 	if err != nil {
